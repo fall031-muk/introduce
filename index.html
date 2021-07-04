@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>about me</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/649439ea11.js" crossorigin="anonymous"></script>
+</head>
+<body> 
+  <div class="container">
+    <div class="header">
+      <img class='img' src="images/logo.jpg" alt="상단 작은 사진">
+      <h1>HyeonMuk</h1>
+      <audio controls autoplay loop id="myaudio">
+        <source src="audio/BGM.mp3">
+      </audio>
+      <script>
+        var audio = document.getElementById("myaudio");
+        audio.volume = 0.3;
+      </script>
+      <div class="nav">
+        <ul>
+          <li><a href="#context1">Profile</a></li>
+          <li><a href="#context2">About me</a></li>
+          <li><a href="#context4">Interest</a></li>
+        </ul>       
+      </div>
+      <div class="contact">
+        <a href="tel:01071910833"><i class="fas fa-mobile-alt"></i></a>
+        <a href="mailto:fall900802@gmail.com"><i class="fas fa-envelope"></i></a>
+        <a href="https://github.com/fall031-muk/fall031-muk.github.io-index.io" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+    </div> 
+
+    <div class="intro">
+      <h1>안녕하세요!
+        <br> 개발자를 꿈꾸는 윤현묵입니다.</h1>
+    </div>
+    <div class="context1" id="context1">
+    <img class="profile" src="images/profile.JPG" alt="내 프로필 사진">
+      <div id="grid">
+       <p>
+         전자공학을 전공하였지만, 식품회사에 취업하여 약 5년간 업무를 진행하였습니다. <br>지금은 퇴사 후 백앤드 개발자가 되기 위해 공부를 하고 있습니다. 앞으로 항상 노력하고 스스로 성장할 수 있는 개발자가 되도록 열심히 하겠습니다.
+         <br>저에 대해 더 알고 싶으신 분은 아래의 연락처 또는 우측 상단의 아이콘을 통해 연락하여 주시고, 모두모두 파이팅!!!
+       </p>
+       <ul>
+         <li>Mobile : 010-7191-0833</li>
+         <li>E-mail : fall900802@gmail.com</li>
+         <li>Github : https://github.com/fall031-muk/fall031-muk.github.io-index.io </li>
+       </ul> 
+      </div>
+    </div>
+    <div class="context2" id="context2">      
+      <div>◈ My life</div>
+      <img class="life" src="images/mylife.JPG" alt="내 인생 로드맵">    
+    </div>
+
+    <div class="context3" id="context3">
+      <div>◈ 주변 사람이 보는 나</div>
+      <img class="me" src="images/me.JPG" alt="나에 대한 단어">
+    </div>
+
+    <div class="context4" id="context4">
+      <div>◈ 나의 관심사 </div>
+      <div class="interest">
+        <i class="fas fa-laptop"></i>
+        <i class="fas fa-basketball-ball"></i>
+        <i class="fas fa-book"></i>
+        <i class="fas fa-snowboarding"></i>      
+        <i class="fas fa-hand-holding-usd"></i>
+      </div>
+    </div>
+
+    <a href="#" title="Back to Top" onfocus="this.blur()">
+      <img class="Top" src="images/navi_top.png" alt="Top으로 화면 이동">
+    </a>
+
+  </div>
+  <div class="footer">
+    <p class="copyright">&copy;copyright Muk</p>
+  </div>
+</body>
+</html>
